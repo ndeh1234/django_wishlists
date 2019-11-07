@@ -10,9 +10,9 @@ class NewPlaceForm(forms.ModelForm):
 
 
 
-# Create a custom date input field, otherwise would get a plain text field.
+# Creates a custom date input field, otherwise would get a plain text field.
 class DateInput(forms.DateInput):
-    input_type = 'date'  # Override the default input type, which is 'text'.
+    input_type = 'date'  # Overrides the default input type, which is 'text'.
 
 
 class TripReviewForm(forms.ModelForm):
